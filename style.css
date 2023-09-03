@@ -1,0 +1,311 @@
+html { /*https://www.w3schools.com/howto/howto_css_smooth_scroll.asp#section1*/
+    scroll-behavior: smooth;
+  }
+
+body {
+    background-color: #FFFDF4;
+}
+
+.font { /*https://fonts.google.com/specimen/Baskervville?query=bask*/
+    font-family: 'Baskervville', serif;
+    font-weight: normal !important;
+}
+
+.big18 {
+    font-size: 18pt;
+}
+
+.big22 {
+    font-size: 22pt;
+}
+
+.big30 {
+    font-size: 30pt;
+}
+
+.big14 {
+    font-size: 14pt;
+}
+
+.big16 {
+    font-size: 16pt;
+}
+
+.center_text {
+    text-align: center;
+}
+
+
+
+/*Index Page*/
+
+/*Header*/
+.header {
+    padding: 10px;
+    margin: 10px;
+    position: relative;
+}
+
+.width50 {
+    width: 50px;
+}
+
+.width200 {
+    width: 200px;
+}
+
+.width400 {
+    width: 400px;
+}
+
+.blur { /*https://ui.glass/generator/*/
+    backdrop-filter: blur(20px) saturate(200%);
+    -webkit-backdrop-filter: blur(20px) saturate(200%);
+    background-color: rgb(220, 222, 207);
+    border-radius: 50px;
+}
+
+
+/*Sign In Box*/
+.sign{ /*https://ui.glass/generator/*/
+    backdrop-filter: blur(20px) saturate(200%);
+    -webkit-backdrop-filter: blur(20px) saturate(200%);
+    background-color: rgb(220, 222, 207);
+    border-radius: 50px;
+    width: 350px;
+    padding: 20px;
+    margin: 20px;
+    float: right;
+}
+
+#submit {
+    text-align: center;
+    border-radius: 50px;
+    border-color: #616E38;
+    padding: 10px;
+    background-color: #FFFDF4;
+    cursor: pointer;
+}
+
+
+/*Main (Slogan)*/
+.main {
+    font-size: 60pt;
+    position: relative;
+    width: 900px;
+    left: 50px;
+}
+
+
+/*Courses section (Section 1)*/
+.img_courses { /*https://www.w3schools.com/howto/howto_css_rounded_images.asp*/
+    border-radius: 50%;
+    width: 30%;
+    width: 400px;
+    text-align: center;
+  }
+
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 80%;
+  }
+
+#button {
+    text-align: center;
+    border-radius: 50px;
+    border-color: #616E38;
+    padding: 10px;
+    position: relative;
+    left: 500px;
+    background-color: #FFFDF4;
+    cursor: pointer;
+}
+
+
+/*Teachers section (Section 2)*/
+.teacher {
+    backdrop-filter: blur(20px) saturate(200%);
+    -webkit-backdrop-filter: blur(20px) saturate(200%);
+    background-color: rgb(220, 222, 207);
+    border-radius: 50px;
+    width: 400px;
+    padding: 50px;
+    margin: 20px;
+}
+
+
+
+/*Price section (Section 3)*/
+.img_small { /*https://www.w3schools.com/howto/howto_css_rounded_images.asp*/
+    border-radius: 50%;
+    width: 100%;
+    width: 200px;
+    text-align: center;
+  }
+
+.price {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 80%;
+}
+
+
+/*Mission section (Section 5)*/
+.mission {
+    backdrop-filter: blur(20px) saturate(200%);
+    -webkit-backdrop-filter: blur(20px) saturate(200%);
+    background-color: rgb(220, 222, 207);
+    border-radius: 50px;
+    width: 700px;
+    padding: 50px;
+    margin: 20px;
+    margin: auto;
+    text-align: left;
+}
+
+
+/*FAQ section (Section 6)*/
+.faq {
+    backdrop-filter: blur(20px) saturate(200%);
+    -webkit-backdrop-filter: blur(20px) saturate(200%);
+    background-color: rgb(220, 222, 207);
+    border-radius: 50px;
+    width: 600px;
+    padding: 50px;
+    margin: 20px;
+    margin: auto;
+    text-align: left;
+}
+
+
+/*Contacts section (Section 7)*/
+.map {
+    float: right;
+    border-radius: 20px;
+    position: relative;
+    right: 50px;
+}
+
+.info {
+    position: relative;
+    width: 500px;
+    left: 200px;
+    top: 70px;
+}
+
+
+/*Footer*/
+.footer {
+    background-color: rgb(220, 222, 207);
+    position: relative;
+    top: 300px;
+}
+
+.footer-table {
+    width: 1400px;
+    position: relative;
+    bottom: 90px;
+}
+
+
+/*Links*/
+
+/*https://www.w3schools.com/css/css_link.asp*/
+
+/* unvisited link */
+a:link {
+    color: black;
+  }
+  
+/* visited link */
+a:visited {
+    color: black;
+}
+  
+/* mouse over link */
+a:hover {
+    color: #616E38;
+}
+  
+/* selected link */
+a:active {
+    color: #616E38;
+}
+
+a { /*https://stackoverflow.com/questions/10853881/how-to-remove-underline-from-a-link-in-html*/
+    text-decoration:none;
+}
+
+
+
+/*Schedule Page (section 4)*/
+
+/*Schedule*/
+#table {
+    border-collapse: separate;
+    border: solid rgb(220, 222, 207) 3px;
+    border-radius: 50px;
+    width: 1500px;
+    height: 500px;
+    text-align: center;
+    position: relative;
+    top: 50px;
+
+}
+
+.schedule {
+    border-left:solid #616E38 1px;
+    border-top:solid #616E38 1px;
+}
+
+.th {
+    border-top: none;
+    height: 50px;
+}
+
+td:first-child, th:first-child {
+     border-left: none;
+}
+
+.sch-text {
+    text-align: center;
+    position: relative;
+    top: 40px;
+}
+
+
+
+/*Footer*/
+.footer-schedule {
+    background-color: rgb(220, 222, 207);
+    position: relative;
+    top: 150px;
+    height: 200px;
+}
+
+.footer-table-schedule {
+    width: 1400px;
+    position: relative;
+    bottom: -50px;
+}
+
+
+
+/*History Page*/
+
+/*History Page content*/
+.history-img {
+    border-radius: 50%;
+    width: 30%;
+    width: 400px;
+    text-align: center;
+}
+
+.history {
+    position: relative;
+    left: 100px;
+    width: 1200px;
+}
